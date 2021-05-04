@@ -8,7 +8,7 @@ init_button:
     orr  r1, #RCC_AHB4ENR_GPIOCEN
     str  r1, [r0] 
 
-    @ Configure GPIO PC4 and PC4 as follows:
+    @ Configure GPIO PC4 and PC5 as follows:
     @ digital input, internal weak pullup
     ldr  r0, =GPIOC_BASE
     
